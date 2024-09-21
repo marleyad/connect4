@@ -26,7 +26,7 @@ class Game {
     }
   }
 
-  /** makeHtmlBoard: make HTML table and row of column tops.  */
+  /** makeHtmlBoard: make HTML table and row of column tops*/
 
   makeHtmlBoard() {
     const board = document.getElementById('board');
@@ -127,7 +127,7 @@ class Game {
       this.currPlayer === this.players[0] ? this.players[1] : this.players[0];
   }
 
-  /** checkForWin: check board cell-by-cell for "does a win start here?" */
+  /** checkForWin: check board cell-by-cell for "does a win start here?"*/
 
   checkForWin() {
     // Check four cells to see if they're all color of current player
